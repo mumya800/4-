@@ -1,0 +1,17 @@
+start
+new two number
+set two 2
+new i number
+set i 2
+new j number
+set j 2
+new sum number
+set sum 0
+loop a (1 > sum)
+    loop b (1 > sum)
+        set sum i + j
+    end b
+    set sum sum + two
+end a
+log number sum
+finish
