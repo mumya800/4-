@@ -1,0 +1,18 @@
+start
+new i number
+set i 1
+new j number
+set j 0
+new sum number
+loop a (10 > i)
+    set sum 0
+    loop b (10 > j)
+        set sum i + j
+        set j j + i
+        log number sum
+    end b
+    set i i + 1
+    set j 0
+end a
+finish
+
