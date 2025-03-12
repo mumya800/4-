@@ -3,7 +3,6 @@ new i number
 set i 1
 loop counter (11 > i)
     log number i
-    log string " "
     set i i + 1
 end counter
 finish
