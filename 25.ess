@@ -1,0 +1,13 @@
+start
+new x string
+set x "x^3"
+log string "x = " >> 
+new st number
+set st 3 - 1 
+log string "f(x)' = " >> "3x^" >> "2   "
+
+log string "y = sin(x) y' = cos(x)    "  
+log string "y = cos(x) y' = -sin(x)   " 
+log string "y = cos(x) y' = -sin(x)   " 
+
+finish
